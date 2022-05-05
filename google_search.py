@@ -5,7 +5,7 @@ import requests
 print ("Inserisci la ricerca di cui scaricare i PDF")
 query = input()
 
-request = googlesearch.search (query + ":PDF", num_results=5, lang="it")
+request = googlesearch.search (query + ":PDF", num_results=5)
 i = 0
 
 for r in request:
